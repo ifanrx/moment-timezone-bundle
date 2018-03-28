@@ -1,0 +1,28 @@
+{
+  "name": "moment-timezone-bundle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/without-locale.js",
+  "scripts": {
+    "build": "npm run build-with-locale && npm run build-without-locale",
+    "build-with-locale": "WITH_LOCALE=1 webpack --mode development --config webpack.config.js",
+    "build-without-locale": "WITH_LOCALE=0 webpack --mode development --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifanrx/moment-timezone-bundle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifanrx/moment-timezone-bundle/issues"
+  },
+  "homepage": "https://github.com/ifanrx/moment-timezone-bundle#readme",
+  "dependencies": {
+    "moment-timezone": "^0.5.14"
+  },
+  "devDependencies": {
+    "webpack": "^4.3.0",
+    "webpack-cli": "^2.0.13"
+  }
+}
