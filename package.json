@@ -19,10 +19,10 @@
   },
   "homepage": "https://github.com/ifanrx/moment-timezone-bundle#readme",
   "dependencies": {
-    "moment-timezone": "^0.5.14"
+    "moment-timezone": "^0.5.43"
   },
   "devDependencies": {
-    "webpack": "^4.3.0",
+    "webpack": "^4",
     "webpack-cli": "3.2.1"
   }
 }
